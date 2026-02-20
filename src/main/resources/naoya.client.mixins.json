@@ -1,0 +1,10 @@
+{
+  "required": true,
+  "package": "com.naoyamod.mixin.client",
+  "compatibilityLevel": "JAVA_17",
+  "client": [
+    "ClientPlayerEntityMixin",
+    "MouseMixin"
+  ],
+  "injectors": { "defaultRequire": 1 }
+}

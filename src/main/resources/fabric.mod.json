@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "naoyamod",
+  "version": "${version}",
+  "name": "Naoya Mod",
+  "description": "Naoya Zenin's Divine Speed technique from Jujutsu Kaisen. Grants supersonic speed, water walking, afterimages, and explosive burst abilities.",
+  "authors": ["Fi3w0"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/naoyamod/textures/icon/naoya.jpg",
+  "environment": "*",
+  "entrypoints": {
+    "main":   ["com.naoyamod.NaoyaMod"],
+    "client": ["com.naoyamod.NaoyaModClient"]
+  },
+  "mixins": [
+    "naoya.mixins.json",
+    "naoya.client.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "fabric-api":   "*",
+    "minecraft":    "~1.20.1",
+    "java":         ">=17"
+  }
+}

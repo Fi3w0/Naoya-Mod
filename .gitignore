@@ -1,0 +1,52 @@
+# Gradle
+.gradle/
+build/
+out/
+bin/
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.classpath
+.project
+.settings/
+
+# Eclipse
+eclipse/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Minecraft development
+run/
+logs/
+crash-reports/
+debug/
+local/
+*.log
+
+# Fabric
+remappedSrc/
+remappedTestSrc/
+
+# Build outputs
+*.jar
+!build/libs/*.jar
+
+# Config files (may contain sensitive data)
+config/
+
+# Token files
+token_github.txt
+*.token
+*.key
+
+# Temporary files
+tmp/
+temp/
